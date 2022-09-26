@@ -1,5 +1,9 @@
 class DateHelper {
 
+  constructor() {
+    throw new Error('Esta classe não pode ser instanciado')
+  }
+
   static dataParaTexto(data) {
     return data.getDate()
       + '/' + (data.getMonth() + 1)
