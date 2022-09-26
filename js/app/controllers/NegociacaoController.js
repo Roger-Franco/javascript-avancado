@@ -12,9 +12,6 @@ class NegociacaoController {
     event.preventDefault();
 
     let data = new Date(...this._inputData.value.split('-').map((item, indice) => item - indice % 2))
-    // if (indice === 1) {
-    //   return item - 1
-    // } // alternativa mais limpa
 
     let negociacao = new Negociacao(
       data,
