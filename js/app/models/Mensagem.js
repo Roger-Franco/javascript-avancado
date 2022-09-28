@@ -1,5 +1,5 @@
 class Mensagem {
-  constructor(texto = 'opaa') {
+  constructor(texto = '') {
     this._texto = texto;
   }
 
